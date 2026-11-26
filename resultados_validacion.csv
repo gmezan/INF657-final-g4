@@ -1,0 +1,4 @@
+modelo,split,EM,evidence_hit,joint,latencia_ms,observaciones
+baseline_tfidf,validation,1.0,1.0,1.0,0.47,TF-IDF 1-2 gramas + reranking por reglas
+vdb_e5_qdrant,validation,1.0,1.0,1.0,22.26,Qdrant + e5-small + filtro de sitio + reranking por reglas
+ablacion_vdb_sin_filtro,validation,0.9333333333333333,0.9333333333333333,0.9333333333333333,10.91,Igual que vdb pero sin filtro de payload por sitio
